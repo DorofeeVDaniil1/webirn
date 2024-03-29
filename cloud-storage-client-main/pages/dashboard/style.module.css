@@ -1,0 +1,42 @@
+/* Общие стили для формы */
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: auto;
+}
+
+/* Стили для каждого вопроса */
+div {
+	margin-bottom: 16px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input,
+select {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+/* Стили для кнопки отправки */
+button {
+	background-color: #4caf50;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
